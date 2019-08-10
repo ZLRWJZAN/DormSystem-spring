@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="layui/css/layui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="layui/css/modules/layer/default/layer.css"  media="all">
+</head>
+<body>
+<form class="layui-form" action="" lay-filter="exampleUpdate" id="formm">
+    <div class="layui-form-item" >
+        <label class="layui-form-label">宿舍楼名</label>
+        <div class="layui-input-block">
+            <input type="text" name="name" lay-verify="title" autocomplete="off" placeholder="请输入名字" class="layui-input">
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">宿舍楼性别</label>
+        <div class="layui-input-block">
+            <input type="radio" name="sex" value="男" title="男" checked="">
+            <input type="radio" name="sex" value="女" title="女">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">宿舍楼地址</label>
+        <div class="layui-input-block">
+            <input type="text" name="password" lay-verify="title" autocomplete="off" placeholder="请输入地址" class="layui-input">
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="" lay-filter="demo1">立即提交</button>
+        </div>
+    </div>
+</form>
+
+
+<script type="text/javascript" src="layui/layui.js"></script>
+
+<script type="text/javascript" src="layui/lay/modules/layer.js"></script>
+
+<script type="text/javascript" src="jquery-1.10.2.js"></script>
+
+<script>
+    var laydate;
+    layui.use(['form','laydate'], function(index){
+        var form = layui.form;
+        laydate = layui.laydate;
+        //日期
+        laydate.render({
+            elem: '#date'
+        });
+
+        //自定义验证规则
+        form.verify({
+            title: function(value){
+                if(value.length < 2){
+                    return '至少得2个字符啊';
+                }
+            }
+            ,pass: [
+                /^[\S]{6,12}$/
+                ,'密码必须6到12位，且不能出现空格'
+            ]
+            ,content: function(value){
+                layedit.sync(editIndex);
+            }
+        });
+
+        //监听提交
+        form.on('submit(demo1)', function(data){
+
+            $.ajax({
+                url:url,
+                type:'post',
+                data:{info:JSON.stringify(data.field)},
+                success:function(data){
+                    if(data.status == 'error'){
+                        layer.msg(data.msg,{icon: 5});//失败的表情
+                        o.removeClass('layui-btn-disabled');
+                        return;
+                    }else{
+                        layer.msg(data.msg, {
+                            icon: 6,//成功的表情
+                            time: 1000 //1秒关闭（如果不配置，默认是3秒）
+                        }, function(){
+                            var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引
+                            parent.layer.close(index); //再执行关闭
+                            location.reload();
+                        });
+                    }
+                },
+                complete: function () {
+                    layer.close(this.layerIndex);
+                },
+            });
+            /* layer.alert(JSON.stringify(data.field), {
+                  title: '最终的提交信息'
+            })
+            return false; */
+        });
+
+        var info = parent.layui.laydate.info;
+        form.val("exampleUpdate", {
+            'name':info.name,
+            'sex':info.sex,
+            'birthday':info.birthday,
+            'phone':info.phone,
+            'password':info.password,
+            'className':info.className,
+            'education':info.education,
+            'clothingLike':info.clothingLike,
+            'colourLike':info.colourLike,
+            'exerciseLike':info.exerciseLike,
+        });
+        //表单初始赋值
+        //form.render();
+
+    });
+</script>
+</body>
+</html>

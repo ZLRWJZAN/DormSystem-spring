@@ -1,0 +1,40 @@
+{
+	"code": 200,
+	"token": "taVJM3Ba3lD/YmU19m1VLj9BrBMs8CdS",
+	"msg": null,
+	"data": [
+		{
+			"title": "Home",
+			"icon": "&#xe68e;",
+			"href": "/pages/main/main.html",
+			"children": []
+		},
+		{
+			"title": "StudentManagement",
+			"icon": "&#xe7ae;",
+			"href": "",
+			"children": [
+				 {
+                    "title": "AddStudent",
+                    "icon": "",
+                    "href": "./pages/webAdmin/studentadd.html",
+                    "children": []
+                },
+                {
+                    "title": "StudentList",
+                    "icon": "",
+                    "href": "./pages/webAdmin/studentKanban.html",
+                    "children": []
+                }
+			]
+		},
+		{
+			"title": "TeacherManagement",
+			"icon": "&#xe8ae;",
+			"href": "./pages/webAdmin/teacherManagement.html",
+			"children": [
+
+			]
+		}
+	]
+}

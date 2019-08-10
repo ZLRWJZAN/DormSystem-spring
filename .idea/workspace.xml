@@ -1,0 +1,1838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DormSystem - spring版本:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/InputStream.java" line="44" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b80224a6-c118-433a-b359-2f19019697f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DormSystem - spring版本.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DormSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/.idea/Resources.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/mapperXml/building.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/mapperXml/dorm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Resources/mapperXml/stu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/AESUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/CacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/ClassScaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/GetJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/RSAUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/Scan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/RequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/ShowLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/aop/BeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/BuidingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/DormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/EmilyCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/NoteCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/VarCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/aaa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/domain/BuidingDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/domain/DormDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/domain/LoginDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/domain/ResultDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/domain/StudentDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/emilecode/Emi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/emilecode/SendForgetPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/emilecode/SendMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/mapper/BuildingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/mapper/DormMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/mapper/StuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/mybatis/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/notecode/PhoneCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/notecode/StaticPeram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/proxy/CacheProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/BuidingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/DormService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/impl/BuidingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/impl/DormServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/servlet/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ps/dorm/servlet/ServletAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/325501.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/325645.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/buidAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/adminThemes.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/adminthemes-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/adminthemes-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/adminthemes-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/adminthemes-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/adminthemes-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/font_tnyc012u2rlwstt9.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/font_tnyc012u2rlwstt9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/font_tnyc012u2rlwstt9.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/font_tnyc012u2rlwstt9.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font/font_tnyc012u2rlwstt9_IE8.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/font_tnyc012u2rlwstt9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/layadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/laylogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/layloginLuyun.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/main.luyun.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/images/416c956de4095b5c811c5dfc69f1ffaf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/images/ebe279116baf99d3f939db1df2169cb4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/images/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/images/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/images/login_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/js/dataCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/js/javascript.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/js/jquery.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/js/layui.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/demo/404/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/demo/404/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/headIcon/headIcon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/main/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/management/StudentQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/management/forgetPassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/management/iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/management/updatePassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/user/changePwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/user/userInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/dormAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/dormQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/dormupdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/stuAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/stuQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/stuUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/studentKanban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/studentadd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/teacherManagement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-extend/bodyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-extend/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-icon-extend/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-icon-extend/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-icon-extend/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-icon-extend/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-icon-extend/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-icon-extend/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-icon-extend/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-icon-extend/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/layui-icon-extend/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/waves/waves.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/plugins/waves/waves.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/services/data/getUserInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/services/data/menu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/services/data/menuEN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/services/data/todayQuery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/services/data/todayUserTable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/services/data/todoList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/services/data/userImgUpload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/801bba51b2dba5dcff16a0883185b44a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Ann/An.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Ann/Ather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Ann/ClassScaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Ann/Cont.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Ann/Overri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Ann/SEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Ann/ScanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SendMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/aes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/emily.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/325501.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/325645.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/.idea/Resources.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/Utils/AESUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/Utils/CacheUtil$Recode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/Utils/CacheUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/Utils/ClassScaner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/Utils/GetJoin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/Utils/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/Utils/RSAUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/Utils/Scan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/annotation/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/annotation/RequestMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/annotation/ShowLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/aop/BeforeAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/controller/BuidingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/controller/DormController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/controller/EmilyCodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/controller/NoteCodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/controller/VarCodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/demoClass/Run.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/demoClass/Stu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/demoClass/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/demoClass/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/demoClass/Test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/demoClass/Test4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/demoClass/Test5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/demoClass/aaa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/domain/BuidingDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/domain/DormDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/domain/LoginDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/domain/ResultDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/domain/StudentDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/emilecode/Emi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/emilecode/SendForgetPassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/emilecode/SendMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/mapper/BuildingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/mapper/DormMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/mapper/StuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/mybatis/Resource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/notecode/PhoneCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/notecode/StaticPeram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/proxy/CacheProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/service/BuidingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/service/DormService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/service/impl/BuidingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/service/impl/DormServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/servlet/DispatcherServlet$Handle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/servlet/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/com/ps/dorm/servlet/ServletAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/mapperXml/building.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/mapperXml/dorm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/classes/mapperXml/stu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/aliyun-java-sdk-core-4.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/commons-codec-1.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/commons-dbcp2-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/commons-email-1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/commons-lang3-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/druid-1.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/httpclient-4.5.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/httpcore-4.4.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/ini4j-0.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/javax.mail-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/jaxb-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/log4j-api-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/log4j-core-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/org.jacoco.agent-0.8.3-runtime.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/spring-aspects-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/lib/stax-api-1.0-2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/buidAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/adminThemes.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/adminthemes-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/adminthemes-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/adminthemes-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/adminthemes-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/adminthemes-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/font_tnyc012u2rlwstt9.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/font_tnyc012u2rlwstt9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/font_tnyc012u2rlwstt9.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/font_tnyc012u2rlwstt9.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font/font_tnyc012u2rlwstt9_IE8.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/font_tnyc012u2rlwstt9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/layadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/laylogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/layloginLuyun.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/css/main.luyun.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/images/416c956de4095b5c811c5dfc69f1ffaf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/images/ebe279116baf99d3f939db1df2169cb4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/images/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/images/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/images/login_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/js/dataCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/js/javascript.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/js/jquery.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/js/layui.util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/demo/404/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/demo/404/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/headIcon/headIcon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/main/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/management/StudentQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/management/forgetPassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/management/iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/management/updatePassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/user/changePwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/user/userInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/dormAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/dormQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/dormupdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/stuAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/stuQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/stuUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/studentKanban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/studentadd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/pages/webAdmin/teacherManagement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-extend/bodyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-extend/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-icon-extend/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-icon-extend/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-icon-extend/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-icon-extend/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-icon-extend/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-icon-extend/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-icon-extend/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-icon-extend/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/layui-icon-extend/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/waves/waves.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/plugins/waves/waves.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/services/data/getUserInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/services/data/menu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/services/data/menuEN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/services/data/todayQuery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/services/data/todayUserTable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/services/data/todoList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/services/data/userImgUpload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/dist/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/DormSystem/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/Resources.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/Utils/AESUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/Utils/CacheUtil$Recode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/Utils/CacheUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/Utils/ClassScaner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/Utils/GetJoin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/Utils/MD5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/Utils/RSAUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/Utils/Scan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/annotation/Cache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/annotation/RequestMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/annotation/ShowLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/aop/BeforeAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/controller/BuidingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/controller/DormController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/controller/EmilyCodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/controller/NoteCodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/controller/VarCodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/demoClass/Run.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/demoClass/Stu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/demoClass/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/demoClass/Test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/demoClass/Test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/demoClass/Test4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/demoClass/Test5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/demoClass/aaa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/domain/BuidingDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/domain/DormDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/domain/LoginDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/domain/ResultDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/domain/StudentDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/emilecode/Emi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/emilecode/SendForgetPassword.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/emilecode/SendMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/filter/LoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/mapper/BuildingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/mapper/DormMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/mapper/StuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/mybatis/Resource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/notecode/PhoneCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/notecode/StaticPeram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/proxy/CacheProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/service/BuidingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/service/DormService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/service/impl/BuidingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/service/impl/DormServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/servlet/DispatcherServlet$Handle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/servlet/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ps/dorm/servlet/ServletAll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperXml/building.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperXml/dorm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapperXml/stu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/801bba51b2dba5dcff16a0883185b44a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Ann/An.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Ann/Ather.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Ann/ClassScaner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Ann/Cont.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Ann/Overri.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Ann/SEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Ann/ScanService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Base.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/MD5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/SendMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/aes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/emily.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1419">
+              <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6963">
+              <caret line="211" column="23" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/service/impl/BuidingServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+              <folding>
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/ShowLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>login</find>
+      <find>mysql</find>
+      <find>handlers</find>
+      <find>handlerMapping</find>
+      <find>lan</find>
+      <find>code</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Test4.java" />
+        <option value="$PROJECT_DIR$/src/test/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/aaa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Stu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/BuidingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/Ann/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/Ann/ClassScaner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/aop/AfterAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dist/pages/management/forgetPassword.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/RequestMapping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/ClassScaner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/CacheUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/filter/LoginFilter.java" />
+        <option value="E:/内网通/麦周禧/ps/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/Ann/ScanService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/servlet/ServletAll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/Scan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/VarCodeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/NoteCodeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/BuidingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/GetPasswordUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/AESUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/emilecode/SendForgetPassword.java" />
+        <option value="$PROJECT_DIR$/src/test/aes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/EmilyCodeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/aop/BeforeAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/impl/BuidingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/proxy/CacheProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/dormAdd.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/DormService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/service/impl/DormServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/mapper/DormMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/DormController.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/Resources/mapperXml/dorm.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/dormQuery.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/dormupdate.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dist/services/data/menu.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/stuAdd.html" />
+        <option value="$PROJECT_DIR$/src/main/Resources/mapperXml/stu.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/stuUpdate.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/stuQuery.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/dist/pages/management/updatePassword.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/Cache.java" />
+        <option value="$PROJECT_DIR$/src/main/Resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/ShowLog.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DormSystem Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DormSystem Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DormSystem - spring版本" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DormSystem - spring版本" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28015953" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Ann" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cdw\idea\DormSystem\src\main\webapp\dist\pages\webAdmin" />
+      <recent name="D:\cdw\idea\DormSystem\src\main\java\com\ps\dorm\Utils" />
+      <recent name="D:\cdw\idea\DormSystem\src\main\java\com\ps\dorm\annotation" />
+      <recent name="D:\cdw\idea\DormSystem\src\main\java\com\ps\dorm\proxy" />
+      <recent name="D:\cdw\idea\DormSystem\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ps.dorm.emilecode" />
+      <recent name="com.ps.dorm.Utils" />
+      <recent name="" />
+      <recent name="com.ps.dorm.controller" />
+      <recent name="com.ps.dorm.mybatis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\cdw\idea\DormSystem\src\main\Resources\mapperXml" />
+      <recent name="D:\cdw\idea\DormSystem\src\main\java\com\ps\dorm\mapper" />
+      <recent name="D:\cdw\idea\DormSystem\src\main\webapp" />
+      <recent name="D:\cdw\idea\DormSystem\src\main\Resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.35">
+    <configuration name="AESUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ps.dorm.Utils.AESUtil" />
+      <module name="DormSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ps.dorm.Utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassScaner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ann.ClassScaner" />
+      <module name="DormSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ann.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aes" />
+      <module name="DormSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScanService.demo5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DormSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ann.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Ann" />
+      <option name="MAIN_CLASS_NAME" value="Ann.ScanService" />
+      <option name="METHOD_NAME" value="demo5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.demo5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DormSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="demo5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/DormSystem" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="DormSystem - spring版本:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/DormSystem" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_35_DormSystem" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60504" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="51381" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DormSystem:war exploded" />
+          <artifact name="DormSystem - spring版本:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/DormSystem/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="DormSystem:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/DormSystem" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_DormSystem" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60504" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DormSystem:war" />
+          <artifact name="DormSystem:war exploded" />
+          <artifact name="DormSystem - spring版本:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClassScaner" />
+      <item itemvalue="Application.AESUtil" />
+      <item itemvalue="Application.aes" />
+      <item itemvalue="JUnit.test.demo5" />
+      <item itemvalue="JUnit.ScanService.demo5" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.35" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.aes" />
+        <item itemvalue="JUnit.ScanService.demo5" />
+        <item itemvalue="Application.AESUtil" />
+        <item itemvalue="Application.ClassScaner" />
+        <item itemvalue="JUnit.test.demo5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b80224a6-c118-433a-b359-2f19019697f1" name="Default Changelist" comment="" />
+      <created>1560128136206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560128136206</updated>
+      <workItem from="1560128145450" duration="1767000" />
+      <workItem from="1560148475474" duration="27290000" />
+      <workItem from="1560211373619" duration="13160000" />
+      <workItem from="1560232974896" duration="18927000" />
+      <workItem from="1560297821753" duration="13217000" />
+      <workItem from="1560319589431" duration="10158000" />
+      <workItem from="1560350340786" duration="932000" />
+      <workItem from="1560384253699" duration="15203000" />
+      <workItem from="1560405891428" duration="32289000" />
+      <workItem from="1560470612135" duration="16403000" />
+      <workItem from="1560492148491" duration="13268000" />
+      <workItem from="1560509561059" duration="11265000" />
+      <workItem from="1560560598944" duration="8197000" />
+      <workItem from="1560578554621" duration="13836000" />
+      <workItem from="1560729866201" duration="15285000" />
+      <workItem from="1560751425774" duration="8306000" />
+      <workItem from="1560763931743" duration="15687000" />
+      <workItem from="1560816333141" duration="5677000" />
+      <workItem from="1560837763826" duration="7587000" />
+      <workItem from="1560855723090" duration="279000" />
+      <workItem from="1560856107966" duration="15344000" />
+      <workItem from="1560902535306" duration="4374000" />
+      <workItem from="1560924143414" duration="10471000" />
+      <workItem from="1560942231053" duration="14372000" />
+      <workItem from="1560989573566" duration="12896000" />
+      <workItem from="1561010552676" duration="9096000" />
+      <workItem from="1561022133171" duration="2678000" />
+      <workItem from="1561026431550" duration="10312000" />
+      <workItem from="1561075475480" duration="927000" />
+      <workItem from="1561076453636" duration="925000" />
+      <workItem from="1561077429391" duration="1150000" />
+      <workItem from="1561078757761" duration="1441000" />
+      <workItem from="1561088107100" duration="2955000" />
+      <workItem from="1561096995942" duration="605000" />
+      <workItem from="1561099804019" duration="181000" />
+      <workItem from="1561100078858" duration="283000" />
+      <workItem from="1561106757716" duration="614000" />
+      <workItem from="1561114361179" duration="239000" />
+      <workItem from="1561184906345" duration="3669000" />
+      <workItem from="1561270033169" duration="51000" />
+      <workItem from="1561271748080" duration="769000" />
+      <workItem from="1561792978038" duration="642000" />
+      <workItem from="1563410231841" duration="1635000" />
+      <workItem from="1564476208237" duration="1162000" />
+      <workItem from="1564581186953" duration="405000" />
+      <workItem from="1564619344213" duration="2149000" />
+      <workItem from="1565449933030" duration="265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ScanService_demo5 - 2019.06.18 at 20h 59m 15s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScanService_demo5 - 2019.06.18 at 21h 01m 45s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScanService_demo5 - 2019.06.18 at 21h 11m 40s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScanService_demo5 - 2019.06.18 at 21h 12m 16s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScanService_demo5 - 2019.06.18 at 21h 14m 19s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScanService_demo5 - 2019.06.18 at 21h 20m 57s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScanService_demo5 - 2019.06.18 at 21h 34m 00s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScanService_demo5 - 2019.06.18 at 21h 34m 20s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScanService_demo5 - 2019.06.18 at 22h 10m 11s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScanService_demo5 - 2019.06.19 at 20h 46m 46s.xml">
+      <configuration name="ScanService.demo5" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="348343000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Web" order="0" sideWeight="0.056277055" side_tool="true" weight="0.22068231" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.91007584" visible="true" weight="0.22441365" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="JRebel" order="8" sideWeight="0.08992416" side_tool="true" visible="true" weight="0.22441365" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.38325992" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.032467533" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.5597015" weight="0.7012987" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.13311689" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.4402985" side_tool="true" weight="0.6450216" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.4891775" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.32929516" />
+      <window_info anchor="bottom" id="Spring" order="16" weight="0.32900432" />
+      <window_info anchor="bottom" id="Problems" order="17" />
+      <window_info anchor="bottom" id="JRebel Executor" order="18" sideWeight="0.6076759" weight="0.033039648" />
+      <window_info anchor="bottom" id="JRebel Console" order="19" sideWeight="0.4402985" side_tool="true" weight="0.6450216" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.042110875" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.1433902" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" visible="true" weight="0.015991472" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/aes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/demoClass/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/Utils/CacheUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/EmilyCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="126" column="32" lean-forward="true" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/325501.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/325645.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/service/DormService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-3.2.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/org/url" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/mapper/DormMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/domain/BuidingDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/domain/DormDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/domain/ResultDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/dormQuery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3729">
+          <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/dormupdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/dormAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="33" column="14" selection-start-line="23" selection-start-column="8" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/stuAdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/services/data/menu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2079">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/stuQuery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3894">
+          <caret line="118" column="36" selection-start-line="118" selection-start-column="36" selection-end-line="118" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/pages/webAdmin/stuUpdate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3003">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/DormController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/pages/management/iframe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/VarCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="26" column="37" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/pages/management/forgetPassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/dist/pages/management/updatePassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/mapperXml/stu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/mapperXml/building.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/mapperXml/dorm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="109" column="37" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/aop/BeforeAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/controller/BuidingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#delete#0;class#BuidingController#0" />
+            <element signature="method#update#0;class#BuidingController#0" />
+            <element signature="method#value#0;class#BuidingController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/servlet/ServletAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/service/impl/DormServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#831#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/service/BuidingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="90" column="31" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/notecode/PhoneCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/notecode/StaticPeram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/mybatis/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/proxy/CacheProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="43" column="75" selection-start-line="43" selection-start-column="75" selection-end-line="43" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6963">
+          <caret line="211" column="23" selection-start-line="211" selection-start-column="18" selection-end-line="211" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/service/impl/BuidingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ps/dorm/annotation/ShowLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|DormSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28015953" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-io:commons-io:2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28015953" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

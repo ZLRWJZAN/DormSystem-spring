@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<link href="../../../layui/css/layui.css" type="text/css" rel="stylesheet">
+<style>
+	.searchKey{
+		margin:20px auto;
+		width:950px;
+	}
+</style>
+<body>	
+<div class="layui-collapse" lay-accordion>
+  <div class="layui-colla-item">
+  	 <h2 class="layui-colla-title">模糊查询</h2>
+	   <div class="layui-colla-content layui-show">
+
+
+	<form class="layui-form" action="" lay-filter="example">
+	  <div class="layui-form-item">
+	    <label class="layui-form-label">姓名</label>
+	     	<div class="layui-input-inline">
+	      	<input type="text" id="username"  placeholder="请输入姓名" class="layui-input">
+	 	</div>
+		      
+	   	   	<label class="layui-form-label">年龄</label>
+	   	   	<div class="layui-input-inline">
+	      		<input type="text" id="age"  placeholder="请输入年龄"  class="layui-input">
+	   	  </div>
+			<label class="layui-form-label">性别</label>
+			<div>
+		   	  	<input type="radio" name="sex" value="M" title="男" id="sex">
+			    <input type="radio" name="sex" value="F" title="女" id="sex">
+			    <input type="radio" name="sex" value="" title="全部" id="sex">
+		    </div>
+	  </div>  
+	  <div class="layui-form-item" style="display: inline-block;">
+	    <label class="layui-form-label">学历</label>
+	    <div class="layui-input-inline">
+	      <select id="interest" lay-filter="aihao">
+	        <option value=""></option>
+	        <option value="初中">初中</option>
+	        <option value="高中">高中</option>
+	        <option value="中专">中专</option>
+	        <option value="大专">大专</option>
+	        <option value="本科">本科</option>
+	      </select>
+	    </div>
+	     <label class="layui-form-label">喜欢的衣服</label>
+	    	<div class="layui-input-inline">
+	      		<input type="text" id="usercolor"  placeholder="请输入喜欢的衣服"  class="layui-input">
+	   		</div>
+	    <label class="layui-form-label">喜欢的颜色</label>
+	    <div class="layui-input-inline">
+	      <input type="text" id="userclothing"  placeholder="请输入喜欢的颜色" autocomplete="off" class="layui-input">
+	    </div>
+	 </div>
+	</form>
+	<div style="text-align: center;"><button class="layui-btn" lay-submit="" lay-filter="demo1" id="conditionalQuery">查询</button></div>
+	</div>
+	<table class="layui-hide" id="test" lay-filter="test"></table>
+	
+	
+</div>
+</body>
+<script type="text/javascript" src="../../../layui/layui.js"></script>
+<script type="text/javascript" src="../../../layui/layui.all.js"></script>
+<script type="text/javascript" src="../../../dist/plugins/jquery.min.js"></script>
+<script type="text/html" id="barDemo">
+  <a class="layui-btn layui-btn-xs" lay-event="edit" href="javascript:;" id="parentIframe">修改</a>
+  <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+
+<script type="text/javascript">
+
+var popForm;
+var laydate;
+var info;
+var tableIns;
+layui.use(['form', 'layedit', 'laydate','table','upload'], function(){
+  var table = layui.table;
+  var form = layui.form
+  ,layer = layui.layer
+  ,layedit = layui.layedit
+  ,laydate = layui.laydate
+  
+  var $ = layui.jquery
+  ,upload = layui.upload;
+  popForm=layui.form;
+  tableIns=table.render({
+    elem: '#test',
+    url:'../../../AllDataSets',
+    title: '用户数据表',
+    toolbar:true
+    ,totalRow: true
+    ,cols: [[
+       {type:'checkbox',fixed: 'left'}
+      ,{type:'numbers',fixed: 'left'}
+      ,{field:'name', title:'姓名', width:180}
+      ,{field:'sex', title:'性别', width:100,templet: function(d){
+         	if(d.sex=="M"){
+          	return '男'
+          }else{
+          	return '女'
+          }
+        }}
+      ,{field:'birthday', title:'出生日期', width:150}
+      ,{field:'phone', title:'手机号码', width:200,  sort: true}
+      ,{field:'className', title:'班级名', width:150}
+      ,{field:'education', title:'学历', width:100}
+      ,{field:'clothingLike', title:'衣服爱好', width:200}
+      ,{field:'colourLike', title:'颜色爱好', width:200}
+      ,{field:'exerciseLike', title:'运动爱好', width:200}
+      ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:150}
+    ]]
+    ,page: true
+    ,limit:15
+    , page:1
+    ,response: {
+      statusCode: 200 //重新规定成功的状态码为 200，table 组件默认为 0
+    }
+    ,parseData: function(res){ //将原始数据解析成 table 组件所规定的数据
+      return {
+        "code": res.code, //解析接口状态
+        "msg": res.msg, //解析提示文本
+        "count": res.count, //解析数据长度
+        "data": res.data //解析数据列表
+      };
+    }
+  });
+  
+   //监听行工具事件
+  table.on('tool(test)', function(obj){
+    var data = obj.data;
+    if(obj.event === 'del'){
+      layer.confirm('真的要删除'+obj.data.name+'么', function(index){
+         $.ajax({
+              url:'../../../UserDeleteServlet',
+              type:'post',
+              data:{id:obj.data.id},
+              success:function(data){
+                  if(data.error){
+                      layer.msg('删除失败',{icon: 5});//失败的表情
+                      o.removeClass('layui-btn-disabled');
+                      return;
+                  }else{
+                      layer.msg('删除成功', {
+                          icon: 6,//成功的表情
+                          //time: 1000000 //1秒关闭（如果不配置，默认是3秒）
+                      }, function(){
+                    	  layer.closeAll();
+                          location.reload();
+                      });
+                  }
+              },
+              complete: function () {
+                  layer.close(this.layerIndex);
+              },
+          });
+      });
+    } else if(obj.event === 'edit'){
+        var info ={
+        	name:obj.data.name,
+        	sex:obj.data.sex,
+        	birthday:obj.data.birthday,
+        	phone:obj.data.phone,
+        	className:obj.data.className,
+        	password:obj.data.password,
+        	education:obj.data.education,
+        	clothingLike:obj.data.clothing_like,
+        	colourLike:obj.data.colour_like,
+        	exerciseLike:obj.data.exercise_like,
+        }
+        laydate.info = info;
+    	layer.open({
+    	  anim: 1,
+		  type: 2,
+		  area: ['700px', '600px'],
+		  fixed: false, //不固定
+		  maxmin: true,
+		  content: "../../pages/management/iframe.html",
+		  success: function(layero, index){
+          	 // 获取子页面的iframe
+           	var iframe = window['layui-layer-iframe' + index];	    
+          }
+		});
+    }
+   });
+   
+
+});
+
+$("#conditionalQuery").click(function(){
+	
+	//获取用户名
+	var name = $("#username").val();
+	var sex = $("input[name='sex']:checked").val();
+	var age = $("#age").val();
+	var education = $("#interest").val();
+	var colourLike = $("#usercolor").val();
+	var clothingLike = $("#userclothing").val();
+	
+	var user = {
+			name,
+			sex,
+			age,
+			education,
+			colourLike,
+			clothingLike
+	};
+	
+	
+	tableIns.reload( {
+	  url: '../../../AllDataSets'
+	  ,where: {
+		 name:name,
+		 sex:sex,
+		 education:education,
+		 colourLike:colourLike,
+		 clothingLike:clothingLike,
+		
+	} 
+	});
+});
+
+</script>
+</html>

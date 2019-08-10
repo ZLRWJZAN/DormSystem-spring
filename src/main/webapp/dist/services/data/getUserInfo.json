@@ -1,0 +1,21 @@
+{
+    "code": 200,
+    "token": "taVJM3Ba3lBTr/LSsoiAsv+Qd2Qt8j4d",
+    "msg": null,
+    "data": [
+        {
+            "user_name": "娜娜",
+            "sex": "女",
+			"roleNames": [
+                "老师"
+            ],
+            "tel_phone": "13474824061",
+            "birthday": "2000-02-08  00:00:00",
+            "class_name": "1808",
+            "education": "大专",
+            "clothes_hobby": "T恤，裙子",
+            "colour_hobby": "蓝色，黑色，白色，黄色，绿色，紫色",
+            "exercise_hobby": "打羽毛球，听歌，画画，打代码，睡觉，吃"
+        }
+    ]
+}

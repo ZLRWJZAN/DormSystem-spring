@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ps.dorm.mapper.BuildingMapper">
+    <insert id="buidInsert" parameterType="com.ps.dorm.domain.BuidingDo">
+        insert into building (name,address,sex) VALUES ("${name}","${address}",${sex})
+    </insert>
+
+    <select id="buidSelect" parameterType="com.ps.dorm.domain.BuidingDo" resultType="com.ps.dorm.domain.BuidingDo">
+        select id,name,address,sex from building
+    </select>
+
+    <select id="buidSelectId" parameterType="com.ps.dorm.domain.BuidingDo" resultType="com.ps.dorm.domain.BuidingDo">
+        select * from building where name="${buidingName}";
+    </select>
+
+    <delete id="buidDelete" parameterType="com.ps.dorm.domain.BuidingDo">
+        delete from building where id=${id}
+    </delete>
+
+    <update id="buidUpdate" parameterType="com.ps.dorm.domain.BuidingDo">
+        update building set name="${name}",address="${address}",sex=${sex}
+        <where>
+            <if test="id!=null">
+                id=${id}
+            </if>
+        </where>
+    </update>
+</mapper>

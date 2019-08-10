@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        https://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+        
+        <!-- 告诉spring从哪个包下面扫描注解 -->
+   	<context:component-scan base-package="com.ps.dorm"></context:component-scan>
+
+
+        <!--设置数据库-->
+        <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        	<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        	<property name="url" value="jdbc:mysql://127.0.0.1:3306/spring"></property>
+        	<property name="username" value="root"></property>
+        	<property name="password" value="ps123456"></property>
+        </bean>
+
+        
+        <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
+        	<property name="dataSource" ref="dataSource"></property>
+        	<!-- 自动扫描mappers.xml文件 -->
+        	<property name="mapperLocations" value="classpath:mapperXml/*.xml" />
+        </bean>
+        
+        <!-- 扫描器，扫描指定包下的接口，并且会自动创建对象 -->
+        <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        	<!-- 确定包的位置 -->
+        	<property name="basePackage" value="com.ps.dorm.mapper"></property>
+        	<property name="sqlSessionFactory" ref="sqlSessionFactoryBean"></property>
+        </bean>
+
+		<!--通知类-->
+		<bean id="beforeAdvice" class="com.ps.dorm.aop.BeforeAdvice"></bean>
+		<bean id="cacheProxy" class="com.ps.dorm.proxy.CacheProxy"></bean>
+		<aop:config proxy-target-class="true">
+			<!-- 切入點 -->
+			<aop:pointcut expression="@annotation(com.ps.dorm.annotation.ShowLog)" id="pointcut"/>
+			<aop:pointcut expression="@annotation(com.ps.dorm.annotation.Cache)" id="pointcut1"/>
+			<!-- 通知應該要和切入點進行綁定 -->
+			<aop:advisor advice-ref="beforeAdvice" pointcut-ref="pointcut"/>
+			<aop:advisor advice-ref="cacheProxy" pointcut-ref="pointcut1"/>
+		</aop:config>
+</beans>

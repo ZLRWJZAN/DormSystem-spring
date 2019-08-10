@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>个人资料</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="../../../layui/css/layui.css" media="all" />
+</head>
+
+<body>
+	<script src="../../../jquery-1.10.2.js"></script>
+	<script src="../../plugins/axios.js"></script>
+    <script src="../../plugins/jquery.min.js"></script>
+    <script src="../../js/javascript.util.js"></script>
+    <script src="../../js/jquery.util.js"></script>
+    <script src="../../js/dataCache.js"></script>
+    <script src="../../../layui/layui.js"></script>
+    <script>
+        layui.use(['laytpl'], function () {
+            var laytpl = layui.laytpl;
+            //读取个人信息详情
+            var obj = {
+                type: 'get', 
+                url: "../../../UserInformationServlet", 
+                data: 'id='+getCookie('userID'), 
+                dataType: 'json', 
+                success: function (result) {
+                    if (!result.error) {
+                        var getTpl = demo.innerHTML, view = document.getElementById('view');
+                        laytpl(getTpl).render(result.body, function (html) {
+                            view.innerHTML = html;
+                        });
+                    } else {
+                        layer.msg('获取用户信息失败。');
+                        console.warn(result.msg);
+                    }
+                }, error: function (ex) {
+                    console.warn(ex.responseText);
+                }
+            };
+
+            //判断是否在服务器环境中，是则用本地数据。
+            if (getIsWeb() === false) {
+                var data = getJson_getUserInfo();
+                obj.success(data);
+            } else {
+                //jquery ajax请求
+                jqueryAjax(obj);
+            }
+        });
+    </script>
+
+    <div id="view"></div>
+
+    <script id="demo" type="text/html">
+        <fieldset class="layui-elem-field layui-field-title">
+       <legend>个人信息</legend>
+   </fieldset>
+   <table class="layui-table">
+       <colgroup>
+           <col width="100"><col>
+           <col width="100"><col>
+       </colgroup>
+       <thead style="display:none" hidden="hidden">
+           <tr>
+               <th>1</th>
+               <th>2</th>
+               <th>3</th>
+               <th>4</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td><strong>用户名:</strong></td>
+               <td>{{d.name}}</td>
+               <td><strong>性别:</strong></td>
+				{{# if(d.sex === 'F'){}}<td>女</td>
+				{{# } else {}}<td>男</td>{{#}}}
+           </tr>
+           <tr>
+			   <td><strong>类型:</strong></td>
+				{{# if(d.type === '1'){}}<td>教师</td>
+				{{# } else {}}<td>学生</td>{{#}}}
+               <td><strong>手机号:</strong></td>
+               <td>{{d.phone}}</td>
+           </tr>
+           <tr>
+               <td><strong>班级名:</strong></td>
+				{{# if(d.className === undefined){}}<td></td>
+				{{# } else {}}<td>{{d.className}}</td>{{#}}}
+               <td><strong>学历:</strong></td>
+				{{# if(d.education === undefined){}}<td></td>
+				{{# } else {}}<td>{{d.education}}</td>{{#}}}
+           </tr>
+           <tr>
+			   <td><strong>生日:</strong></td>
+               <td>{{d.birthday}}</td>
+               <td><strong>衣服爱好:</strong></td>
+				{{# if(d.clothingLike === undefined){}}<td></td>
+				{{# } else {}}<td>{{d.clothingLike}}</td>{{#}}}
+           </tr>
+           <tr>
+			   <td><strong>颜色爱好:</strong></td>
+                {{# if(d.colourLike === undefined){}}<td colspan="3"></td>
+				{{# } else {}}<td colspan="3">{{d.colourLike}}</td>{{#}}}
+           </tr>
+		   <tr>
+			   <td><strong>运动爱好:</strong></td>
+                {{# if(d.exerciseLike === undefined){}}<td colspan="3"></td>
+				{{# } else {}}<td colspan="3">{{d.exerciseLike}}</td>{{#}}}
+		   </tr>
+       </tbody>
+   </table>
+    </script>
+</body>
+
+</html>

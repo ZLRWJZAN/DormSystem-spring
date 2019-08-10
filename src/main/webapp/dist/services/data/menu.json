@@ -1,0 +1,70 @@
+{
+	"code": 200,
+	"token": "taVJM3Ba3lD/YmU19m1VLj9BrBMs8CdS",
+	"msg": null,
+	"data": [
+		{
+			"title": "主页",
+			"icon": "&#xe68e;",
+			"href": "/pages/main/main.html",
+			"children": []
+		},
+		{
+			"title": "宿舍楼管理",
+			"icon": "&#xe7ae;",
+			"href": "",
+			"children": [
+				{
+					"title": "宿舍楼增加",
+					"icon": "",
+					"href": "./pages/webAdmin/studentadd.html",
+					"children": []
+				},
+				{
+					"title": "宿舍楼查询",
+					"icon": "",
+					"href": "pages/management/StudentQuery.html",
+					"children": []
+				}
+			]
+		},
+		{
+			"title": "宿舍管理",
+			"icon": "&#xe8ae;",
+			"href": "./pages/webAdmin/teacherManagement.html",
+			"children": [
+				{
+					"title": "宿舍增加",
+					"icon": "",
+					"href": "./pages/webAdmin/dormAdd.html",
+					"children": []
+				},
+				{
+					"title": "宿舍查询",
+					"icon": "",
+					"href": "./pages/webAdmin/dormQuery.html",
+					"children": []
+				}
+			]
+		},
+		{
+			"title": "学生管理",
+			"icon": "&#xe8ae;",
+			"href": "./pages/webAdmin/teacherManagement.html",
+			"children": [
+				{
+					"title": "学生增加",
+					"icon": "",
+					"href": "./pages/webAdmin/stuAdd.html",
+					"children": []
+				},
+				{
+					"title": "学生查询",
+					"icon": "",
+					"href": "./pages/webAdmin/stuQuery.html",
+					"children": []
+				}
+			]
+		}
+	]
+}
